@@ -1,0 +1,88 @@
+#body{ 	
+	background-color: black;
+	background-size: cover;
+	padding: 0%;
+	color: white;
+}
+#bg_container{
+	height:300px;
+	overflow: none;
+}
+#bg{
+	width:100%;
+}
+#maincontent{
+	position:absolute;
+	top: 0px;
+	padding: 30px;
+	color:#FFF;
+	text-shadow: #000 2px 2px;
+}
+
+#navigation ul{
+	margin: 0px;
+	padding:0px;
+	list-style: none;
+	text-align: center;
+	padding-right:20px;
+	margin-left:0%	
+}
+#navigation ul li{
+	margin-left: 90px;
+	float: left;
+	list-style: none; 
+	width:200px;
+	height: 40px;
+	background-color: black;
+	opacity: .8;
+	line-height: 40px;
+	text-align: center;
+}
+#navigation ul li a{
+	text-decoration: none;
+	display: block; 
+	color: white;
+	font-size: 25px;
+}
+#navigation ul li a:hover{
+	background-color: green;
+}
+
+#content{
+	padding:200px;
+	padding-bottom:15%;
+	text-align: left;
+}
+#content section h1{
+	font-size: 100px;
+	text-align: center;
+	padding-bottom: 400px;
+	margin-right:-50px;
+}
+
+#footer{
+	height:350px;
+	width: 102.5%;
+	color: white;
+	background-color:black;
+	text-align: center;
+	position:absolute;
+	font-size: 20px;
+	left: 0px;
+	bottom: 0%;
+	position:absolute;
+}
+#sunsplashicon img{
+	width:200px;
+	height:auto;
+}
+#icons{
+	float: right;
+	display: inline;
+	text-align: right;
+	margin-right: 100px;
+    padding: 5px;
+	position: relative;
+	top:-30%;
+}
+

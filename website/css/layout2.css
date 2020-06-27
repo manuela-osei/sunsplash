@@ -1,0 +1,93 @@
+#body{ 	
+	background-color: #EFEBEB;
+	padding: 0px;
+	text-align: centre;
+}
+
+#navigation{
+	margin: -15px;
+	height: 130px;
+	background: black;
+	color: white;
+	
+}
+#navigation h1{
+	float: left;
+	font-size: 60px;
+	margin-left: 15px;
+}
+#navigation ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px
+}
+#navigation ul{
+	float: right;
+	margin-right: 15px; 
+}
+#navigation ul li{
+	display: inline-block;
+	list-style-type:none;
+	margin-top: 50px;
+}
+#navigation ul li a{
+	text-decoration: non;
+	color: white;
+	padding: 35px;
+}
+
+#navigation ul li a:hover{
+	color: green;
+	background: #1f1c1c;
+}
+#content{
+	padding: 10px;
+	padding-bottom:280px;
+	text-align:left;
+}
+#content table{
+	height: 50%;
+	
+}
+
+}
+
+#Location1 img{
+	width:100%;
+	height:auto;
+}
+
+#Location1 shops img{
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+}
+
+#Location1 shops img:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#footer{
+	height:287px;
+	width: 100%;
+	color: white;
+	background-color: black;
+	text-align: center;
+	position:absolute;
+	bottom: -100;
+	font-size: 20px;
+	left: 0px;
+}
+#sunsplashicon img{
+	width:150px;
+	height:90px;
+	position: relative;
+    top: 10px;
+}
+#icons{
+	float: right;
+	display: inline;
+	text-align: right;
+	margin-right: 100px;
+    padding: 5px;
+}
